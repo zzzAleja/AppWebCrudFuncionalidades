@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+ <title>Actualizar</title>
+</head>
+<body>
+    <section id="contenedor">
+        <h3>BORRAR INFORMACION</h3>
+        <form action="../php/delete.php" method="POST">
+            <select name="campoamodificar">
+                 <option value="Nombre">nombre</option>
+                 <option value="Apellido">apellido</option>
+                 <option value="Email">email</option>
+                 <option value="Identificacion">identificacion</option>
+            </select><br>
+            <input type="text" placeholder="digite identificacion" name="id"><br>
+            <input type="submit" value="ACTUALIZAR">
+        </form>
+    </section>
+</body>
+</html> 

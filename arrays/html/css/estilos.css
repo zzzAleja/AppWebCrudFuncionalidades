@@ -1,0 +1,16 @@
+#contenedor{
+    background-color: grey;
+    width: 40%;
+    right: 30%;
+    margin-top: 10%;
+    border-radius: 20px;
+    height: 50%;
+    position: absolute;
+}
+ 
+
+
+#boton1 #boton2{
+    margin-top: 1%;
+    margin-left: 38%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movimiento rectilineo uniformes</title>
+    <link href="../css/estilos.css" type="text/css" rel="stylesheet">
+    <script src="../js/funciones.js"></script>
+</head>
+<body>
+    <header class="header">
+        <ul>
+  
+            <li id="seccion1" onmouseover="ver(1)" onmouseout="ocultar(1)">
+            <a>USUARIO</a>
+            <div id="subseccion1">
+                <p><a href="">REGISTRAR</a></p>
+                <p><a href="">LOGIN</a></a></p>
+            </div>
+          </li>
+  
+            <li id="seccion2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+            <a>FUNCIONES</a>
+            <div id="subseccion2">
+                <p><a href="html/mru.html">MRU</a></p>
+                <p><a href="">EDAD</a></p>
+                <p><a href="">NUMERO</a></p>
+                <p><a href="">JUEGO</a></p>
+                <p><a href="">ARRAYS</a></p>
+            </div>
+          </li>
+  
+            <li id="seccion3" onmouseover="ver(3)" onmouseout="ocultar(3)">
+            <a>NOSOTROS</a>
+            <div id="subseccion3">
+                <p><a href="">MISION</a></p>
+                <p><a href="">VISION</a></p>
+            </div>
+          </li>
+        </ul>
+    </section>
+
+    <script src="../js/scriptfrontend.js"></script>
+    </header>
+
+    <section id="contenedor">
+        <form action="../php/insertar.php" method="POST">
+
+            <input type="text" placeholder="Digite nombre" name="nombre"><br>
+            <input type="text" placeholder="Digite apellido" name="apellido"><br>
+            <input type="text" placeholder="Digite email" name="email"><br>
+            <input type="text" placeholder="Digite identificacion" name="id"><br>
+            <input type="submit" value="REGISTRAR">
+
+
+        </form>
+    </section>
+    
+    
+</body>
+</html>
